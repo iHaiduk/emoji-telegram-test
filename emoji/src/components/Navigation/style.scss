@@ -1,0 +1,37 @@
+.wrapper {
+  padding: 0 16px;
+}
+
+.icon {
+  align-items: center;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #71747A;
+  height: 46px;
+  justify-content: center;
+  outline: none;
+  position: relative;
+  width: 40px;
+
+  &:hover,
+  &.active {
+    & > svg {
+      fill: #248BF2;
+    }
+  }
+
+  &.active {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 2px;
+      background-color: #248BF2;
+      border-radius: 0 0 2px 2px;
+    }
+  }
+}

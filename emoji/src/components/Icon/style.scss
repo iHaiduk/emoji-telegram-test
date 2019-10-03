@@ -1,0 +1,23 @@
+.item {
+  display: inline-block;
+
+  & .icon {
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    font-size: 24px;
+    height: 40px;
+    justify-content: center;
+    line-height: 22px;
+    outline: none;
+    padding: 8px;
+    width: 40px;
+
+    &:hover {
+      background: #F2F3F5;
+    }
+  }
+}

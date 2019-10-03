@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 0 16px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.search {
+  background: #F2F3F5;
+  border: 0;
+  border-radius: 8px;
+  color: #171A1F;
+  font-size: 15px;
+  height: 24px;
+  letter-spacing: -.24px;
+  line-height: 24px;
+  outline: none;
+  padding: 8px 36px;
+  width: 248px;
+
+  &::placeholder {
+    color: #9D9FA3;
+  }
+}
+
+.searchIcon {
+  fill: none;
+  left: 27px;
+  position: absolute;
+  stroke: #9D9FA3;
+  top: 14px;
+}
+
+.clearButton {
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  position: absolute;
+  background: none;
+  top: 14px;
+  fill: #9D9FA3;
+  right: 21px;
+}

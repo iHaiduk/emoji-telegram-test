@@ -1,0 +1,46 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        },
+        "useJSXTextNode": true
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "commonjs": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "@typescript-eslint",
+        "simple-import-sort",
+        "typescript-sort-keys"
+    ],
+    "rules": {
+        "array-bracket-spacing": ["error", "never"],
+        "comma-dangle": ["error", "always-multiline"],
+        "comma-style": ["error", "last"],
+        "computed-property-spacing": ["error", "never"],
+        "indent": ["error", 4],
+        "object-curly-spacing": ["error", "never"],
+        "semi": ["error", "always"],
+        "no-new-wrappers": "error",
+        "sort-keys": "error",
+        "sort-vars": "error",
+        "require-atomic-updates": 0,
+
+        // Typescript
+        "typescript-sort-keys/interface": 2,
+        "typescript-sort-keys/string-enum": 2,
+        "@typescript-eslint/consistent-type-assertions": 0
+    }
+}

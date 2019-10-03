@@ -1,0 +1,12 @@
+# General
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+*.scss.d.ts
+.cache
+.idea
+dist
+stats.html
+yarn-error.log
+node_modules
